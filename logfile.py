@@ -1,9 +1,22 @@
 import logging
+import logging.handlers
+import datetime
 
-LOG_FORMAT = "%(asctime)s - %(levelname)s - %(user)s[%(ip)s] - %(message)s"
-DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
+logger = logging.getLogger('mylogger')
+logger.setLevel(logging.DEBUG)
 
-logging.basicConfig(format=LOG_FORMAT, datefmt=DATE_FORMAT,filename="read.txt")
-logging.warning("Some one delete the log file.", exc_info=True, stack_info=True, extra={'user': 'Tom', 'ip':'47.98.53.222'})
-l=logging.getLogger()
-help(logging.Logger)
+rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight', interval=1, backupCount=7, atTime=datetime.time(0, 0, 0, 0))
+rf_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+
+f_handler = logging.FileHandler('error.log')
+f_handler.setLevel(logging.ERROR)
+f_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s[:%(lineno)d] - %(message)s"))
+
+logger.addHandler(rf_handler)
+logger.addHandler(f_handler)
+
+logger.debug('debug message')
+logger.info('info message')
+logger.warning('warning message')
+logger.error('error message')
+logger.critical('critical message')

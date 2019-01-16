@@ -1,0 +1,8 @@
+2019-01-11 21:16:13,496 - ERROR - logfile.py[:21] - error message
+2019-01-11 21:16:13,496 - CRITICAL - logfile.py[:22] - critical message
+2019-01-11 21:25:37,133 - ERROR - logfile.py[:21] - error message
+2019-01-11 21:25:37,133 - CRITICAL - logfile.py[:22] - critical message
+2019-01-11 21:26:10,510 - ERROR - logfile.py[:21] - error message
+2019-01-11 21:26:10,510 - CRITICAL - logfile.py[:22] - critical message
+2019-01-11 21:26:50,697 - ERROR - logfile.py[:21] - error message
+2019-01-11 21:26:50,697 - CRITICAL - logfile.py[:22] - critical message
