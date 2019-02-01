@@ -1,25 +1,10 @@
-2019-01-11 21:16:13,495 - DEBUG - debug message
-2019-01-11 21:16:13,496 - INFO - info message
-2019-01-11 21:16:13,496 - WARNING - warning message
-2019-01-11 21:16:13,496 - ERROR - error message
-2019-01-11 21:16:13,496 - CRITICAL - critical message
-2019-01-11 21:25:37,133 - DEBUG - debug message
-2019-01-11 21:25:37,133 - INFO - info message
-2019-01-11 21:25:37,133 - WARNING - warning message
-2019-01-11 21:25:37,133 - ERROR - error message
-2019-01-11 21:25:37,133 - CRITICAL - critical message
-2019-01-11 21:26:10,510 - DEBUG - debug message
-2019-01-11 21:26:10,510 - INFO - info message
-2019-01-11 21:26:10,510 - WARNING - warning message
-2019-01-11 21:26:10,510 - ERROR - error message
-2019-01-11 21:26:10,510 - CRITICAL - critical message
-2019-01-11 21:26:50,697 - DEBUG - debug message
-2019-01-11 21:26:50,697 - INFO - info message
-2019-01-11 21:26:50,697 - WARNING - warning message
-2019-01-11 21:26:50,697 - ERROR - error message
-2019-01-11 21:26:50,697 - CRITICAL - critical message
-01/11/2019 21:29:06 PM - DEBUG - This is a debug log.
-01/11/2019 21:29:06 PM - INFO - This is a info log.
-01/11/2019 21:29:06 PM - WARNING - This is a warning log.
-01/11/2019 21:29:06 PM - ERROR - This is a error log.
-01/11/2019 21:29:06 PM - CRITICAL - This is a critical log.
+2019-01-25 10:05:00,946 - DEBUG - debug message
+2019-01-25 10:05:00,947 - INFO - info message
+2019-01-25 10:05:00,947 - WARNING - warning message
+2019-01-25 10:05:00,947 - ERROR - error message
+2019-01-25 10:05:00,947 - CRITICAL - critical message
+2019-01-25 10:42:30,566 - DEBUG - debug message
+2019-01-25 10:42:30,567 - INFO - info message
+2019-01-25 10:42:30,567 - WARNING - warning message
+2019-01-25 10:42:30,567 - ERROR - error message
+2019-01-25 10:42:30,567 - CRITICAL - critical message
