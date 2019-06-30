@@ -234,7 +234,7 @@ class GameManager(object):
     def state_over(self):
         return self._restart_or_exit()
 
-    def __call__(self, stdscr):
+    def __call__(self, stdscr):#对象可以想函数一样调用
         curses.use_default_colors()
         self.stdscr = stdscr
         self.action = Action(stdscr)

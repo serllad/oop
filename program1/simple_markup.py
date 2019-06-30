@@ -1,3 +1,4 @@
+#coding=utf-8
 import sys,re
 def lines(file):
     for line in file:
